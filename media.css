@@ -1,0 +1,123 @@
+/*@media screen and (max-width: 1260px) {
+	body {
+		max-width: 850px;
+	}
+
+	.title {
+		width: 80%;
+	} 
+	
+	.advantages {
+		width: 80%;
+	}
+
+	.advantages-3__text {
+		right: 49px;
+	}
+
+}*/
+
+@media screen and (max-width: 1060px) {
+	body {
+		max-width: 650px;
+		background-color: #000;
+		background-image: url(img/bg.jpg);
+		-webkit-background-size: 100%;
+		background-size: 100%;
+	}
+
+	.title {
+		margin-top: 250px;
+		width: 100%;
+	}
+
+	.advantages {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	body {
+		-webkit-background-size: 200% 30%;
+		background-size: 170%;
+		background-position: top right;
+		max-width: 310px;
+	}
+
+	.title {
+		font-size: 38px;
+		margin-top: 300px;
+		width: 100%;
+	}
+
+	.title__neon {
+		right: 5px;
+		width: 100%;
+	}
+
+	.description {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.whatsapp-msg {
+		/*width: 242px;
+		height: 54px;
+		font-size: 12px;*/
+		margin: 38px auto;
+		display: block;
+	}
+
+	/*.whatsapp-msg__img {
+		padding-right: 10px;
+		width: 15px;
+	}	*/
+
+	.phone {
+		margin-top: 55px;
+		box-shadow: none;
+		display: block;
+	}
+
+	.phone__input {
+		position: inherit;
+		width: 259px;
+		/*height: 54px;
+		font-size: 12px;
+		-webkit-background-size: 10px;
+		background-size: 10px;
+		padding-left: 50px;*/
+		display: block;
+		margin: 0 auto;
+	}
+
+	.phone__order {
+		position: inherit;
+		box-shadow: none;
+		margin-top: 10px;
+		display: block;
+		margin: 15px auto;
+	}
+
+	.advantages {
+		flex-direction: column;
+		margin-top: 40px;
+	}
+
+	.advantages__item {
+		width: 100%;
+	}
+
+	.advantages__img {
+		width: 20%;
+	}
+
+	.advantages__text {
+		width: 75%;
+	}
+
+	.advantages-3__text {
+		right: 0;
+	}
+
+}

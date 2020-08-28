@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Ponter Alt';
+    src: url('fonts/17502.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl Light';
+	src: url('fonts/MuseoSans/MuseoSansCyrl.otf') format('opentype');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl Regular';
+	src: url('fonts/MuseoSans/MuseoSansCyrl_1.otf') format('opentype');
+	font-weight: normal;
+    font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #fff; 
+}
+
+button {
+	background: none;
+	border: none;
+}
+
+input {
+	border: none;
+}
+
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+	background-image: url('img/bgnoblack.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    padding-bottom: 50px;
+}
+
+.title {
+	color: #fff;
+	font-family: 'Ponter Alt';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 135%;
+	margin-top: 80px;
+	width: 50%;
+}
+
+.title__neon {
+	background: #fff;
+	color: #ed02b2;
+	padding: 0.3em 0.2em 0.04em;
+	position: relative;
+	right: 15px;
+}
+
+.description {
+	font-family: 'Museo Sans Cyrl Light';
+	color: #fff;
+	font-size: 20px;
+	line-height: 140%;
+	font-weight: 600;
+	margin-top: 25px;
+	width: 40%;
+}
+
+.whatsapp-msg {
+	color: #fff;
+	width: 308px;
+	height: 72.19px;
+	border: 1px solid green;
+	border-radius: 200px;
+	margin-top: 55px;
+	padding: 1px;
+	font-size: 16px;
+	display: block;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 20px #00FF0A, inset 0px 0px 20px #00FF0A;
+}
+
+.whatsapp-msg:hover {
+	box-shadow: none;
+}
+
+.whatsapp-msg:active {
+	background: rgba(255, 255, 255, 0.2);
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px #000000;
+}
+
+.whatsapp-msg__img {
+	padding-right: 20px;
+}
+
+.phone {
+	margin-top: 25px;
+	border-radius: 200px;
+	box-shadow: 0px 10px 50px rgba(235, 0, 255, 0.8);
+	display: inline-block;																		
+}
+
+.phone__input {
+	width: 420px;																										
+	height: 70px;
+	background: #fff url(img/phone.png) 0 0 no-repeat;
+	background-position: 25px center;
+	border-radius: 200px;
+	font-size: 16px;
+	font-family: 'Museo Sans Cyrl Regular';
+	padding-left: 57px;
+	position: absolute;
+}
+
+.phone__input:focus::placeholder {
+	color: transparent;
+}
+
+.phone__order {
+	width: 317px;
+	height: 72px;
+	background: linear-gradient(107.47deg, #C104E0 6.57%, #FF004D 87.43%);
+	box-shadow: 0px 10px 50px rgba(235, 0, 255, 0.8);
+	border-radius: 200px;
+	text-transform: uppercase;
+	color: #fff;
+	position: relative;
+	left: 300px;
+	z-index: 3;
+}
+
+.phone__order:hover {
+	background: linear-gradient(107.41deg, #A80FC0 6.57%, #A40031 87.43%);
+}
+
+.phone__order:active {
+	background: linear-gradient(107.41deg, #6E28A6 6.57%, #A40080 87.3%);
+}
+
+.advantages {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+	margin-top: 52px;
+}
+
+.advantages__item {
+	display: flex;
+	width: 27%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.advantages__img {
+	width: 20%;
+}
+
+.advantages__text {
+	font-family: 'Museo Sans Cyrl Regular';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #fff;
+	width: 77%;
+}
+
+.advantages-3__text {
+	width: 50%;
+	position: relative;
+	right: 55px;
+}
